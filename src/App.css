@@ -1,0 +1,82 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+html {
+  background-color:#E8E8E8;
+}
+
+/* Navbar */
+nav {
+  background-color:rgb(116, 116, 143);
+  height:  50px;
+  color: wheat;
+}
+
+nav h1 {
+  float: left;
+}
+
+.navbar {
+  float: left;
+}
+
+.navbar li {
+  display: inline;
+}
+
+.navbar  li a {
+  text-decoration: none;
+}
+
+.navbar  li a:hover {
+  color: red;
+}
+
+/*Books*/
+.Books-wrapper {
+  display: table;
+  margin: 0 auto;
+}
+
+.Books {
+  list-style: none;
+}
+
+.Book {
+  background-color: 	#F5F5F5;
+  box-shadow: 0px 0px 5px 0px #000;
+  border-radius: 5px;
+  aspect-ratio: 10/1;
+  height:80px;
+  margin: 10px;
+  padding: 10px;
+}
+
+.Book-nav-item {
+  padding: 0 5px;
+  display: inline;
+  list-style: none;
+}
+
+.middle{
+  border-right: #000 1px solid;
+  border-left: 1px solid #000;
+}
+
+.Book-nav-item button {
+  cursor: pointer;
+  background-color: unset;
+  border: none;
+}
+
+.Book-nav-item button:hover {
+  color: rebeccapurple;
+}
+
+/* Add book */
+.Addbook {
+  display: table;
+  margin: 0 auto;
+}
