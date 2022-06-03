@@ -22,7 +22,7 @@ export default function Books() {
       <div className="Books-wrapper">
         <ul className="Books">
           {temp.map((book) => (
-            <Book ganre={book.ganre} key={book.id} author={book.author} title={book.author} />
+            <Book key={book.id} book={book} />
           ))}
         </ul>
       </div>

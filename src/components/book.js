@@ -26,7 +26,7 @@ export default class Book extends PureComponent {
 }
 
 Book.defaultProps = {
-  book: [],
+  book: {},
 };
 
 Book.propTypes = {
@@ -34,7 +34,7 @@ Book.propTypes = {
     {
       title: PropTypes.string,
       author: PropTypes.string,
-      id: PropTypes.string,
+      id: PropTypes.number,
       ganre: PropTypes.string,
     },
   ),
